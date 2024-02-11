@@ -1,7 +1,13 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def palindrome(word):
-    pass
+    lower_word = word.lower()
+    reverse_word = lower_word[::-1]
+    if lower_word == reverse_word and word != "":
+        print('True')
+    else:
+        print(False)
 
 if __name__ == '__main__': 
     #REMOVE PASS AND YOUR CODE GOES HERE
-    pass
+    word = input()
+    palindrome(word)
