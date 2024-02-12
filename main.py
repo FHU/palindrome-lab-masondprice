@@ -5,7 +5,7 @@ def palindrome(word):
     if lower_word == reverse_word and word != "":
         print('True')
     else:
-        print(False)
+        print('False')
 
 if __name__ == '__main__': 
     #REMOVE PASS AND YOUR CODE GOES HERE
